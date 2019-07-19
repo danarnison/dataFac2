@@ -1,0 +1,16 @@
+{
+	"name": "FileShare1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Sftp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "FileShare",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "/upload"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

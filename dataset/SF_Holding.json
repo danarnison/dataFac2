@@ -1,0 +1,16 @@
+{
+	"name": "SF_Holding",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CPDEV1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SalesforceObject",
+		"schema": [],
+		"typeProperties": {
+			"objectApiName": "cloupra__Holding__c"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

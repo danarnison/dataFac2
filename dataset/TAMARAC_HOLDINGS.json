@@ -1,0 +1,125 @@
+{
+	"name": "TAMARAC_HOLDINGS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Sftp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "SftpLocation",
+				"folderPath": "/upload"
+			},
+			"columnDelimiter": ",",
+			"compressionCodec": "ZipDeflate",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "As Of Date",
+				"type": "String"
+			},
+			{
+				"name": "Symbol",
+				"type": "String"
+			},
+			{
+				"name": "Account Number",
+				"type": "String"
+			},
+			{
+				"name": "Accrued Income",
+				"type": "String"
+			},
+			{
+				"name": "Annual Income",
+				"type": "String"
+			},
+			{
+				"name": "Cash Invested",
+				"type": "String"
+			},
+			{
+				"name": "Cost Basis",
+				"type": "String"
+			},
+			{
+				"name": "Cumulative Income",
+				"type": "String"
+			},
+			{
+				"name": "Current Yield",
+				"type": "String"
+			},
+			{
+				"name": "Days to Long Term",
+				"type": "String"
+			},
+			{
+				"name": "Dollar Gain/Loss",
+				"type": "String"
+			},
+			{
+				"name": "Exclude From Billing",
+				"type": "String"
+			},
+			{
+				"name": "Exclude From Performance",
+				"type": "String"
+			},
+			{
+				"name": "Holdings Current Value",
+				"type": "String"
+			},
+			{
+				"name": "Long Term Unrealized Gain/Loss",
+				"type": "String"
+			},
+			{
+				"name": "Open Date",
+				"type": "String"
+			},
+			{
+				"name": "Percent Dollar Gain/Loss",
+				"type": "String"
+			},
+			{
+				"name": "Percent Gain/Loss",
+				"type": "String"
+			},
+			{
+				"name": "Price",
+				"type": "String"
+			},
+			{
+				"name": "Quantity",
+				"type": "String"
+			},
+			{
+				"name": "Short Term Unrealized Gain/Loss",
+				"type": "String"
+			},
+			{
+				"name": "Total Unrealized Gain/Loss",
+				"type": "String"
+			},
+			{
+				"name": "Unit Cost",
+				"type": "String"
+			},
+			{
+				"name": "Weight",
+				"type": "String"
+			},
+			{
+				"name": "Yield at Cost",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
